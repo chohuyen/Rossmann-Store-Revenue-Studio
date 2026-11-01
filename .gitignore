@@ -1,16 +1,11 @@
-# Bỏ qua các file rác của hệ điều hành
-.DS_Store
-Thumbs.db
-
-# Bỏ qua các file môi trường ảo Python và cache
-__pycache__/
-*.py[cod]
-venv/
-.env
-
-# Bỏ qua các file dữ liệu thô quá nặng (tránh lỗi upload trên 100MB của GitHub)
+# Dữ liệu thô và dữ liệu đã xử lý
 data/raw/*.csv
 data/processed/*.csv
+*.zip
 
-# Bỏ qua các file checkpoint của Jupyter Notebook
+# Môi trường ảo và cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 .ipynb_checkpoints/
